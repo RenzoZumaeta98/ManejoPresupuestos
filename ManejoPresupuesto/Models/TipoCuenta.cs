@@ -13,6 +13,17 @@ namespace ManejoPresupuesto.Models
         public int Orden { get; set; }
 
 
+        //Pruebas de otras validaciones por defecto Data Anootations
+        [Required(ErrorMessage = "El campo {0} es requerido")]
+        [EmailAddress(ErrorMessage = "El campo debe ser un correo valido")]
+        public string Email { get; set; }
+        [Required(ErrorMessage = "El campo {0} es requerido")]
+        [Range(minimum: 18, maximum: 70, ErrorMessage = "El valor debe estar entre {1} y {2} años")]
+        public int Edad { get; set; }
+        [Url]
+        public string URL { get; set; }
+        [CreditCard]
+        public string TarjetaCredito { get; set; }
 
     }
 }
