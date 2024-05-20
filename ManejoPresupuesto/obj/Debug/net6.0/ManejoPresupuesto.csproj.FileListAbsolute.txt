@@ -28,3 +28,4 @@ C:\Users\renzo\Desktop\PROGRAM\Cursos\CursoASP.NET(MVC)Udemy\Proyectos\ManejoPre
 C:\Users\renzo\Desktop\PROGRAM\Cursos\CursoASP.NET(MVC)Udemy\Proyectos\ManejoPresupuesto\ManejoPresupuesto\obj\Debug\net6.0\ManejoPresupuesto.pdb
 C:\Users\renzo\Desktop\PROGRAM\Cursos\CursoASP.NET(MVC)Udemy\Proyectos\ManejoPresupuesto\ManejoPresupuesto\obj\Debug\net6.0\ManejoPresupuesto.genruntimeconfig.cache
 C:\Users\renzo\Desktop\PROGRAM\Cursos\CursoASP.NET(MVC)Udemy\Proyectos\ManejoPresupuesto\ManejoPresupuesto\obj\Debug\net6.0\ref\ManejoPresupuesto.dll
+C:\Users\renzo\Desktop\PROGRAM\Cursos\CursoASP.NET(MVC)Udemy\Proyectos\ManejoPresupuesto\ManejoPresupuesto\obj\Debug\net6.0\ManejoPresupuesto.sourcelink.json
