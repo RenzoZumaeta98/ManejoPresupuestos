@@ -6,7 +6,7 @@ namespace ManejoPresupuesto.Validaciones
     {
         protected override ValidationResult IsValid(object value, ValidationContext validationContext)
         {
-            if(value == null || string.IsNullOrEmpty(value.ToString()))
+            if(value == null || string.IsNullOrEmpty(value.ToString()))     /*Se hace validacion para asegurarnos de que el valor no es null*/
             {
                 return ValidationResult.Success;
             }
