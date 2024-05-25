@@ -1,13 +1,16 @@
-﻿using ManejoPresupuesto.Models;
+﻿using Dapper;
+using ManejoPresupuesto.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Data.SqlClient;
 
 namespace ManejoPresupuesto.Controllers
 {
     public class TiposCuentasController: Controller 
     {
+
         public IActionResult Crear()
         {
-            return View();
+                return View();
         }
 
         [HttpPost]
