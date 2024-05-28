@@ -9,6 +9,7 @@ namespace ManejoPresupuesto.Servicios
         Task Crear(TipoCuenta tipoCuenta);
         void CrearSinAsync(TipoCuenta tipoCuenta);
         Task<bool> Existe(string nombre, int usuarioId);
+        Task<IEnumerable<TipoCuenta>> Obtener(int usuario);
     }
     public class RepositorioTiposCuentas : IRepositorioTiposCuentas
     {
@@ -36,6 +37,17 @@ namespace ManejoPresupuesto.Servicios
                                                                         new {nombre, usuarioId});
             return existe == 1;
         }
+
+        public async Task<IEnumerable<TipoCuenta>> Obtener(int usuarioId)
+        {
+            using var connection = new SqlConnection(connectionString);
+            return await connection.QueryAsync<TipoCuenta>(@"SELECT Id, Nombre, Orden
+                                                            FROM dbo.TiposCuentas
+                                                            Where UsuarioId = @UsuarioId", new {usuarioId});
+        }
+
+
+
 
         //EJEMPLO METODO CREAR SIN ASYNC AWAIT (MALA PRACTICA)
         public void CrearSinAsync(TipoCuenta tipoCuenta)
