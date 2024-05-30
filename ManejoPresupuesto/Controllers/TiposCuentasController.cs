@@ -43,7 +43,7 @@ namespace ManejoPresupuesto.Controllers
             }
 
             await repositorioTiposCuentas.Crear(tipoCuenta);
-            return View();
+            return RedirectToAction("Index");
         }
 
 
@@ -60,6 +60,16 @@ namespace ManejoPresupuesto.Controllers
 
             return Json(true);
         }
+
+        [HttpGet]
+        public async Task<IActionResult> Index()
+        {
+            var usuarioId = 1;
+            var listado = await repositorioTiposCuentas.Obtener(usuarioId);
+            return View(listado);
+        }
+
+
 
     }
 }
