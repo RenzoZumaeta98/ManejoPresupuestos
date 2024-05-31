@@ -12,6 +12,7 @@ namespace ManejoPresupuesto.Servicios
         Task<bool> Existe(string nombre, int usuarioId);
         Task<IEnumerable<TipoCuenta>> Obtener(int usuarioId);
         Task<TipoCuenta> ObtenerPorId(int id, int usuarioId);
+        Task Ordenar(IEnumerable<TipoCuenta> tipoCuentasOrdenados);
     }
     public class RepositorioTiposCuentas : IRepositorioTiposCuentas
     {
@@ -47,7 +48,8 @@ namespace ManejoPresupuesto.Servicios
             using var connection = new SqlConnection(connectionString);
             return await connection.QueryAsync<TipoCuenta>(@"SELECT Id, Nombre, Orden
                                                     FROM dbo.TiposCuentas
-                                                    Where UsuarioId = @UsuarioId", new { usuarioId });
+                                                    Where UsuarioId = @UsuarioId
+                                                    ORDER BY Orden", new { usuarioId });
         }
 
         public async Task Actualizar(TipoCuenta tipoCuenta)
@@ -71,6 +73,14 @@ namespace ManejoPresupuesto.Servicios
         {
             using var connection = new SqlConnection(connectionString);
             await connection.ExecuteAsync("DELETE dbo.TiposCuentas WHERE Id = @Id", new { id });
+        }
+
+        public async Task Ordenar(IEnumerable<TipoCuenta> tipoCuentasOrdenados)
+        {
+            var query = "UPDATE dbo.TiposCuentas SET Orden = @Orden Where Id = @Id;";
+            using var connection = new SqlConnection(connectionString);
+            await connection.ExecuteAsync(query, tipoCuentasOrdenados);
+            //La ventaja de DAPPER es que si mande un IEnumerable, realizara el comando tantas veces como valores haya en tipoCuentasOrdenados
         }
 
 
