@@ -124,5 +124,12 @@ namespace ManejoPresupuesto.Controllers
             return RedirectToAction("Index");
         }
 
+        [HttpPost]
+        public async Task<IActionResult> Ordenar([FromBody] int[] ids)  //Significa que se recibira del cuerpo de la vista el arreglo de ids
+        {
+
+            return Ok();//Returna una respuesta 200 
+        }
+
     }
 }
