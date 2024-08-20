@@ -2049,11 +2049,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\renzo\\Desktop\\PROGRAM\\Cursos\\CursoASP.NET(MVC)Udemy\\Proyectos\\ManejoPresupuesto\\ManejoPresupuesto\\ManejoPresupuesto.csproj",
+      "projectUniqueName": "C:\\Users\\renzo\\OneDrive\\Documentos\\PROGRAM\\Cursos\\Curso C#\\CursoASP.NET(MVC)Udemy\\Proyectos\\ManejoPresupuesto\\ManejoPresupuesto\\ManejoPresupuesto.csproj",
       "projectName": "ManejoPresupuesto",
-      "projectPath": "C:\\Users\\renzo\\Desktop\\PROGRAM\\Cursos\\CursoASP.NET(MVC)Udemy\\Proyectos\\ManejoPresupuesto\\ManejoPresupuesto\\ManejoPresupuesto.csproj",
+      "projectPath": "C:\\Users\\renzo\\OneDrive\\Documentos\\PROGRAM\\Cursos\\Curso C#\\CursoASP.NET(MVC)Udemy\\Proyectos\\ManejoPresupuesto\\ManejoPresupuesto\\ManejoPresupuesto.csproj",
       "packagesPath": "C:\\Users\\renzo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\renzo\\Desktop\\PROGRAM\\Cursos\\CursoASP.NET(MVC)Udemy\\Proyectos\\ManejoPresupuesto\\ManejoPresupuesto\\obj\\",
+      "outputPath": "C:\\Users\\renzo\\OneDrive\\Documentos\\PROGRAM\\Cursos\\Curso C#\\CursoASP.NET(MVC)Udemy\\Proyectos\\ManejoPresupuesto\\ManejoPresupuesto\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\renzo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2064,6 +2064,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2115,7 +2116,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Av6dB4V2fX4Kg+VsRGYi5oajoIbU+syqTpAoLiq20oC+Hs+O9ZbQqgMc9+i9CrsLla18p8IbErvtCuG+Ohk8ZQ==",
+  "dgSpecHash": "2OS68bw3zWg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\renzo\\Desktop\\PROGRAM\\Cursos\\CursoASP.NET(MVC)Udemy\\Proyectos\\ManejoPresupuesto\\ManejoPresupuesto\\ManejoPresupuesto.csproj",
+  "projectFilePath": "C:\\Users\\renzo\\OneDrive\\Documentos\\PROGRAM\\Cursos\\Curso C#\\CursoASP.NET(MVC)Udemy\\Proyectos\\ManejoPresupuesto\\ManejoPresupuesto\\ManejoPresupuesto.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\renzo\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\renzo\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
