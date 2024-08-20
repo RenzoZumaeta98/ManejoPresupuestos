@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\renzo\\OneDrive\\Documentos\\PROGRAM\\Cursos\\Curso C#\\CursoASP.NET(MVC)Udemy\\Proyectos\\ManejoPresupuesto\\ManejoPresupuesto\\ManejoPresupuesto.csproj": {}
+    "C:\\Users\\renzo\\Documentos\\PROGRAM\\Cursos\\CursoASP.NET(MVC)Udemy\\Proyectos\\ManejoPresupuesto\\ManejoPresupuestos\\ManejoPresupuesto\\ManejoPresupuesto.csproj": {}
   },
   "projects": {
-    "C:\\Users\\renzo\\OneDrive\\Documentos\\PROGRAM\\Cursos\\Curso C#\\CursoASP.NET(MVC)Udemy\\Proyectos\\ManejoPresupuesto\\ManejoPresupuesto\\ManejoPresupuesto.csproj": {
+    "C:\\Users\\renzo\\Documentos\\PROGRAM\\Cursos\\CursoASP.NET(MVC)Udemy\\Proyectos\\ManejoPresupuesto\\ManejoPresupuestos\\ManejoPresupuesto\\ManejoPresupuesto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\renzo\\OneDrive\\Documentos\\PROGRAM\\Cursos\\Curso C#\\CursoASP.NET(MVC)Udemy\\Proyectos\\ManejoPresupuesto\\ManejoPresupuesto\\ManejoPresupuesto.csproj",
+        "projectUniqueName": "C:\\Users\\renzo\\Documentos\\PROGRAM\\Cursos\\CursoASP.NET(MVC)Udemy\\Proyectos\\ManejoPresupuesto\\ManejoPresupuestos\\ManejoPresupuesto\\ManejoPresupuesto.csproj",
         "projectName": "ManejoPresupuesto",
-        "projectPath": "C:\\Users\\renzo\\OneDrive\\Documentos\\PROGRAM\\Cursos\\Curso C#\\CursoASP.NET(MVC)Udemy\\Proyectos\\ManejoPresupuesto\\ManejoPresupuesto\\ManejoPresupuesto.csproj",
+        "projectPath": "C:\\Users\\renzo\\Documentos\\PROGRAM\\Cursos\\CursoASP.NET(MVC)Udemy\\Proyectos\\ManejoPresupuesto\\ManejoPresupuestos\\ManejoPresupuesto\\ManejoPresupuesto.csproj",
         "packagesPath": "C:\\Users\\renzo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\renzo\\OneDrive\\Documentos\\PROGRAM\\Cursos\\Curso C#\\CursoASP.NET(MVC)Udemy\\Proyectos\\ManejoPresupuesto\\ManejoPresupuesto\\obj\\",
+        "outputPath": "C:\\Users\\renzo\\Documentos\\PROGRAM\\Cursos\\CursoASP.NET(MVC)Udemy\\Proyectos\\ManejoPresupuesto\\ManejoPresupuestos\\ManejoPresupuesto\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\renzo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -66,6 +66,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.30, 6.0.30]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.30, 6.0.30]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.30, 6.0.30]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.30, 6.0.30]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -74,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
